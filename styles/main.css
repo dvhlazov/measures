@@ -1,0 +1,54 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 48px;
+	text-align: center;
+	background-color: beige;
+}
+.container {
+	width: 1000px;
+	
+	
+	margin: 0 auto;
+}
+.container-box {
+	
+}
+.box1 {
+	background-color: #D2D9FE;
+	width: 500px;
+}
+.box2 {
+width: 50%;
+background-color: #FCFED2;
+}
+.box3 {
+	width: 1000px;
+	background-color: #D2FEFE;
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 24px;
+	text-align: center;
+
+	
+}
+.pixels {
+	width: 100px;
+	background-color: #D2D9FE;
+}
+.percents {
+	width: 30%;
+	background-color: aquamarine;
+}
+.calc {
+	width: calc(70% - 100px);
+	background-color: #FAE0D9;
+}
+.box4 {
+	width: 75vw;
+	background-color: rgb(148, 230, 17);
+}
+.box4-cont {
+	display: flex;	
+	justify-content: center;
+}
